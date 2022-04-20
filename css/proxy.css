@@ -1,0 +1,20 @@
+/* Pumping font awesome heat style */
+.pump {
+    /* size of the heart */
+    /* font-size: 10px; */
+    /* color of the heart */
+    color: rgba(255, 0, 0, 0.1);
+    animation: pump
+        /*the first one corresponds to heart pumping speed, the huger the slower*/
+        600ms 0ms infinite linear reverse
+}
+
+@keyframes pump {
+    from {
+        color: rgba(207, 40, 104, 0.1);
+    }
+
+    to {
+        color: rgb(241, 19, 104);
+    }
+}
