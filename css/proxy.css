@@ -18,3 +18,18 @@
         color: rgb(241, 19, 104);
     }
 }
+
+.star {
+    color: rgba(126, 90, 13, 0.1);
+    animation: star 600ms 0ms infinite linear reverse
+}
+
+@keyframes star {
+    from {
+        color: rgba(126, 90, 13, 0.1);
+    }
+
+    to {
+        color: rgb(247, 215, 4);
+    }
+}
