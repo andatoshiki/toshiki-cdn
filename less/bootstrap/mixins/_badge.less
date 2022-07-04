@@ -1,0 +1,18 @@
+#badge-variant(@bg) {
+	color: color-yiq(@bg);
+	background-color: @bg;
+
+	// LESS PORT: Less has no `@at-root` equivalent, so omitting that here.
+	a& {
+		#hover-focus({
+			color: color-yiq(@bg);
+			background-color: darken(@bg, 10%);
+		});
+
+		&:focus,
+		&.focus {
+			outline: 0;
+			box-shadow: 0 0 0 @badge-focus-width fade(@bg, 50%);
+		}
+	}
+}
