@@ -1,0 +1,21 @@
+{
+  "name": "toshiki-cdn",
+  "version": "0.0.1",
+  "description": "Toshiki's own CDN packages",
+  "repository": "https://github.com/andatoshiki/toshiki-cdn.git",
+  "author": "<101481353+andatoshiki@users.noreply.github.com>",
+  "license": "GPL-3.0 license",
+  "private": true,
+  "keywords": [
+    "cdn",
+    "styles",
+    "javascripts",
+    "toshiki",
+    "katex",
+    "enchantments"
+  ],
+  "scripts": {
+    "postpublish": "npm run publish-npm",
+    "publish-npm": "npm publish --access public --ignore-scripts --@andatoshiki:registry='https://registry.npmjs.org'"
+  }
+}
