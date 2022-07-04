@@ -1,5 +1,5 @@
 {
-  "name": "toshiki-cdn",
+  "name": "@andatoshiki/toshiki-cdn",
   "version": "0.0.1",
   "description": "Toshiki's own CDN packages",
   "repository": "https://github.com/andatoshiki/toshiki-cdn.git",
