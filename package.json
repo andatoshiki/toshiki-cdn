@@ -1,6 +1,6 @@
 {
   "name": "@andatoshiki/toshiki-cdn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Toshiki's own CDN packages",
   "repository": "https://github.com/andatoshiki/toshiki-cdn.git",
   "author": "<101481353+andatoshiki@users.noreply.github.com>",
