@@ -5,7 +5,7 @@
   "repository": "https://github.com/andatoshiki/toshiki-cdn.git",
   "author": "<101481353+andatoshiki@users.noreply.github.com>",
   "license": "GPL-3.0 license",
-  "private": true,
+  "private": false,
   "keywords": [
     "cdn",
     "styles",
