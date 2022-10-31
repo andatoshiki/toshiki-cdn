@@ -1,3 +1,15 @@
+/**
+Toshiki mouse hover effect @v0.0.1
+
+Import script
+
+<script type="text/javascript">
+    $.toshikiMouse({
+        type:10, 
+        color:"rgba(187,67,128,1)"
+    })
+</script>
+**/
 "use strict";
 var _createClass = function() {
     function n(t, e) {
